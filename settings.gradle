@@ -1,0 +1,11 @@
+rootProject.name = 'jersey-gradle-multiproject'
+
+file('subprojects').eachDir() { dir -> 
+    if (dir.name.startsWith("extension-")) {
+		include dir.name
+	    project(':' + dir.name).projectDir = file('subprojects/' + dir.name)
+    }
+}
+
+include 'core'
+project(':core').projectDir = file('subprojects/core')
