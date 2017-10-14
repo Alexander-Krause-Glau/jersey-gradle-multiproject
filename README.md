@@ -6,7 +6,7 @@ to modularize the codebase of a Jersey-based web application into single Git rep
 
 ## Usage
 
-Clone this repo with `git clone --recursive git@github.com:Alexander-Krause/jersey-gradle-multiproject.git` and run `gradlew appStart` or `gradlew appRun` inside the folder.
+Clone this repo with `git clone --recursive git@github.com:Alexander-Krause/jersey-gradle-multiproject.git` and run `gradlew appStart` or `gradlew appRun` inside the folder to start the embedded Jetty web server (powered by [Gretty]( https://github.com/akhikhl/gretty)).
 Open your browser and navigate to [http://localhost:8081/core/dummy/show](http://localhost:8081/core/dummy/show) 
 or [http://localhost:8081/extension/loremipsum/show](http://localhost:8081/extension/loremipsum/show).
 
