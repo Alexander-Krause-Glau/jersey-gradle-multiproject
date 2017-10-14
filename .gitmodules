@@ -1,3 +1,4 @@
 [submodule "subprojects/extension-loremipsum"]
 	path = subprojects/extension-loremipsum
 	url = https://github.com/Alexander-Krause/jersey-gradle-subproject.git
+	branch = master
